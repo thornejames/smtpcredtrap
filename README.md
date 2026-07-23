@@ -19,7 +19,7 @@ This tool can create fake SMTP services that capture credentials. Ensure your ho
 - ensure that no existing SMTP services are running on your host (eg. exim) and stop them if required
 - run the tool (you will need to run as a privileged user to bind to SMTP ports): python3 main.py
 - cd /home/kali/Documents/tools/smtpcredtrap
-
+```
 sudo openssl req -x509 -newkey rsa:2048 -nodes \
   -keyout key.pem \
   -out cert.pem \
@@ -28,6 +28,7 @@ sudo openssl req -x509 -newkey rsa:2048 -nodes \
 
 sudo chmod 600 key.pem
 sudo ls -l cert.pem key.pem
+```
 - sudo "$PWD/venv/bin/python" "$PWD/main.py"
 - force apps/services to authenticate with any stored SMTP credentials by changing the SMTP server to the IP of your host and wait for incoming authentication attempts
 - plaintext credentials will be dumped to stdout

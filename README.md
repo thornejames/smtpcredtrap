@@ -29,7 +29,9 @@ sudo openssl req -x509 -newkey rsa:2048 -nodes \
 sudo chmod 600 key.pem
 sudo ls -l cert.pem key.pem
 ```
-- sudo "$PWD/venv/bin/python" "$PWD/main.py"
+```
+sudo "$PWD/venv/bin/python" "$PWD/main.py"
+```
 - force apps/services to authenticate with any stored SMTP credentials by changing the SMTP server to the IP of your host and wait for incoming authentication attempts
 - plaintext credentials will be dumped to stdout
 - Alternatively, install the dependencies pip install aiosmtpd if you don't want to create a virtual environment and run python3 main.py

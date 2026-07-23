@@ -36,3 +36,8 @@ sudo "$PWD/venv/bin/python" "$PWD/main.py"
 - plaintext credentials will be dumped to stdout
 - Alternatively, install the dependencies pip install aiosmtpd if you don't want to create a virtual environment and run python3 main.py
 - pentest-test@example.com
+
+<img width="1166" height="519" alt="image" src="https://github.com/user-attachments/assets/03be1b31-b90e-4556-869c-e5d8e5ed2eee" />
+<img width="1517" height="368" alt="image" src="https://github.com/user-attachments/assets/9e06a44f-3c1a-40fc-9267-9bf277412c18" />
+<img width="850" height="380" alt="image" src="https://github.com/user-attachments/assets/0ed08cf1-a2df-46b1-b6e3-55979123a10b" />
+
